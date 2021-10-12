@@ -30,7 +30,7 @@
     font-size: 20px;
     font-weight: bolder;
 }
-.landing button{
+.landing a{
   text-align: center;
   position: absolute;
   top: 50%;

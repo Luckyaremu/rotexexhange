@@ -22,7 +22,7 @@ const Homepage = () => {
       <div className="landing">
         <h1>Rhotex Exhange</h1>
         <h6>We buy all kinds of cryptocurrencies for trading</h6>
-        <button><a href="http://www.rhotexexchange.com/" target="_blank" rel="noreferrer">SELL YOUR CRIPTOCURRENCY</a></button>
+        <a href="http://www.rhotexexchange.com/" target="_blank" rel="noreferrer">SELL YOUR CRIPTOCURRENCY</a>
       </div>
       <Title level={2} className="heading">Global Cryptocurrency Statistics</Title>
       <Row gutter={[32, 32]}>
