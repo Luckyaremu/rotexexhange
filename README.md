@@ -1,6 +1,4 @@
-# Cryptoverse - Explore the World of Cryptocurrency
-
-![Cryptoverse](https://i.ibb.co/8gh5Jc8/image.png)
+# RHOTEX EXCHANGE - Explore the World of Cryptocurrency
 
 ## Introduction
 This is a code repository for the corresponding video tutorial. 
