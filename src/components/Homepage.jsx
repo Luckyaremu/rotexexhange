@@ -7,7 +7,7 @@ import { useGetCryptosQuery } from '../services/cryptoApi';
 import Cryptocurrencies from './Cryptocurrencies';
 import News from './News';
 import Loader from './Loader';
-import "../style/Homepage.css";
+import '../style/Homepage.css';
 
 const { Title } = Typography;
 
@@ -22,7 +22,7 @@ const Homepage = () => {
       <div className="landing">
         <h1>Rhotex Exhange</h1>
         <h6>We buy all kinds of cryptocurrencies for trading</h6>
-      <button><Link to="/news">Sell your Cryptocurrency</Link></button>
+        <button><a href="http://www.rhotexexchange.com/" target="_blank" rel="noreferrer">SELL YOUR CRIPTOCURRENCY</a></button>
       </div>
       <Title level={2} className="heading">Global Cryptocurrency Statistics</Title>
       <Row gutter={[32, 32]}>
