@@ -14,7 +14,7 @@
     box-sizing: border-box;  
 }
 .routes{
-    background-image: linear-gradient(96deg, #01bed9 0%, #3500d3 50%, #01bed9);
+    background-image: linear-gradient(96deg, #e3eaeb 0%, #c6c1d4 50%, #778688);
 }
 a:hover{
     color: var(--pink) !important;

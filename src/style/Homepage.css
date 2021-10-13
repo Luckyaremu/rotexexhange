@@ -3,7 +3,7 @@
 }
 
 .home-heading{
-    background-color: rgb(185, 192, 178);
+    background-image: linear-gradient(96deg, #e3eaeb 0%, #c6c1d4 50%, #778688);
 }
 .landing{
     background-image: url("../images/use.jpg");
