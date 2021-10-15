@@ -9,7 +9,6 @@ import News from './News';
 import Loader from './Loader';
 import '../style/Homepage.css';
 
-
 const { Title } = Typography;
 
 const Homepage = () => {
@@ -18,12 +17,12 @@ const Homepage = () => {
 
   if (isFetching) return <Loader />;
 
-  return (  
+  return (
     <div className="home-heading">
       <div className="landing">
         <h1>Rhotex Exchange</h1>
         <h6>We buy all kinds of cryptocurrencies</h6>
-        <button><a href="https://wa.me/message/BNTLTIQOWIJCC1" target="_blank" rel="noreferrer">SELL YOUR CRYPTOCURRENCY</a></button>
+        <button type="submit"><a href="https://wa.me/message/BNTLTIQOWIJCC1" target="_blank" rel="noreferrer">SELL YOUR CRYPTOCURRENCY</a></button>
       </div>
       <Title level={2} className="heading">Global Cryptocurrency Statistics</Title>
       <Row gutter={[32, 32]}>
