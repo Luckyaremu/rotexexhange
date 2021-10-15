@@ -23,7 +23,7 @@
     font-size: 5px;
 }
 .routes{
-    background-image: linear-gradient(96deg, #5d0b7e 0%, #7f22ca 50%, #7115e9)
+    background-image: linear-gradient(96deg, #f8f3fa 0%, #faf8fc 50%, #f6f4f8)
 }
 a:hover{
     color: var(--pink) !important;
