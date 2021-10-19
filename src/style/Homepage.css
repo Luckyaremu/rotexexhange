@@ -6,12 +6,12 @@
     background-image: linear-gradient(96deg, #e1e0eb 0%, #dddbe9 50%, #e1deec);
 }
 .landing{
-    background-image: url("../images/use.jpg");
+    background-image: url("../images/bitcoin.svg");
     background-color: #cccccc;
-    height: 500px; 
+    height: 900px;
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: cover; 
+  
     position: relative;
 }
 .landing h1{
@@ -67,3 +67,9 @@
     color: white;
 }
 
+@media screen and (max-width:500px){
+    .home-heading{
+        margin-left: -20%;
+    }
+  }
+  

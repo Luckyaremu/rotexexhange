@@ -1,8 +1,10 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
+import Carousel from './Carousel';
+import Testimonial from './Testimonial';
 
-import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import { Exchanges, Homepage, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
 const App = () => (
@@ -14,6 +16,10 @@ const App = () => (
       <Layout>
         <div className="routes">
           <Switch>
+          <Carousel />
+          <Route exact path="/">
+              <Homepage />
+            </Route>
             <Route exact path="/">
               <Homepage />
             </Route>
@@ -26,10 +32,11 @@ const App = () => (
             <Route exact path="/crypto/:coinId">
               <CryptoDetails />
             </Route>
-            <Route exact path="/news">
-              <News />
+            <Route exact path="/testimonial">
+              <Testimonial />
             </Route>
           </Switch>
+          <Testimonial />
         </div>
       </Layout>
       <div className="footer">
@@ -42,7 +49,7 @@ const App = () => (
         <Space>
           <Link to="/">Home</Link>
           <Link to="/exchanges">Exchanges</Link>
-          <Link to="/news">News</Link>
+          <Link to="/testimony">Testimony</Link>
         </Space>
       </div>
     </div>

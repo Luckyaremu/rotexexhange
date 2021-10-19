@@ -2,10 +2,8 @@ import React from 'react';
 import millify from 'millify';
 import { Typography, Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
-
 import { useGetCryptosQuery } from '../services/cryptoApi';
 import Cryptocurrencies from './Cryptocurrencies';
-import News from './News';
 import Loader from './Loader';
 import '../style/Homepage.css';
 
@@ -19,11 +17,7 @@ const Homepage = () => {
 
   return (
     <div className="home-heading">
-      <div className="landing">
-        <h1>Rhotex Exchange</h1>
-        <h6>We buy all kinds of cryptocurrencies</h6>
-        <button type="submit"><a href="https://wa.me/message/BNTLTIQOWIJCC1" target="_blank" rel="noreferrer">SELL YOUR CRYPTOCURRENCY</a></button>
-      </div>
+      
       <Title level={2} className="heading">Global Cryptocurrency Statistics</Title>
       <Row gutter={[32, 32]}>
         <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total} /></Col>
@@ -38,10 +32,8 @@ const Homepage = () => {
       </div>
       <Cryptocurrencies simplified />
       <div className="home-heading-container">
-        <Title level={2} className="home-title">Latest Cryptocurrency News</Title>
-        <Title level={2} className="show-more"><Link to="/news">Show more</Link></Title>
+        <Title level={2} className="home-title">Rhotex Exchange testimony</Title>
       </div>
-      <News simplified />
     </div>
   );
 };
