@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { useGetCryptosQuery } from '../services/cryptoApi';
 import Cryptocurrencies from './Cryptocurrencies';
 import Loader from './Loader';
+import Testimonial from '../Testimonial';
 import '../style/Homepage.css';
 
 const { Title } = Typography;
@@ -34,6 +35,7 @@ const Homepage = () => {
       <div className="home-heading-container">
         <Title level={2} className="home-title">Rhotex Exchange testimony</Title>
       </div>
+      <Testimonial simplified />
     </div>
   );
 };

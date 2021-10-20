@@ -16,11 +16,8 @@ const App = () => (
       <Layout>
         <div className="routes">
           <Switch>
-          <Carousel />
           <Route exact path="/">
-              <Homepage />
-            </Route>
-            <Route exact path="/">
+              <Carousel /> 
               <Homepage />
             </Route>
             <Route exact path="/exchanges">
@@ -32,11 +29,10 @@ const App = () => (
             <Route exact path="/crypto/:coinId">
               <CryptoDetails />
             </Route>
-            <Route exact path="/testimonial">
+            <Route exact path="/news">
               <Testimonial />
             </Route>
           </Switch>
-          <Testimonial />
         </div>
       </Layout>
       <div className="footer">

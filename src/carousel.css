@@ -23,6 +23,9 @@
 }
 }
 
+
+
+
 .background{
   position: relative;
 }
@@ -30,7 +33,7 @@
   position: absolute ;
   margin: auto;
   top: 135px;
-  right: 500px;
+  right: 400px;
   font-size: larger;
 }
 .landings h1{
